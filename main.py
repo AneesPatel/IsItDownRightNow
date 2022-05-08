@@ -10,7 +10,6 @@ def main():
             down = True
         else:
             down = False
-        #print("\033[1;32m This text is Bright Green \n")
 
         print("Website URL: \u001b[37m {}".format(website_url))
         if down:
